@@ -40,8 +40,8 @@ A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is
 You will need a python 3.6 environment set up. To be able to train and run the agents, you will need the install the dependencies. Do do so, clone the repostory and install the required packages. With the following commands you will install PyTorch, the ML-Agents toolkit, and a few more Python packages required.
 
 ```python
-git clone https://github.com/F1r3m4n/deep-reinforcement-learning.git
-cd deep-reinforcement-learning/python
+git clone https://github.com/n-lamprou/DeepReinforcementLearning.git
+cd DeepReinforcementLearning/python
 pip install .
 ```
 
@@ -53,12 +53,12 @@ The repository already has the Windows the Banana environment built and placed i
 * Linux: [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
 * Mac OSX: [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
 
-Replace the Place the `Banana_Windows_x86_64` directory in the `p1_navigation/` folder repository with teh corresponding unzipped directory of your choice.
+Replace the Place the `Banana_Windows_x86_64` directory in the `Navigation/` folder repository with teh corresponding unzipped directory of your choice.
 
 
 ## Instructions
 
-Once your environment is set up, navigate to the `p1_navigation` and follow the instructions beneath to train an agent or to run a simulation. 
+Once your environment is set up, navigate to the `Navigation` and follow the instructions beneath to train an agent or to run a simulation. 
 
 #### Training an Agent
 
