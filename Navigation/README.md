@@ -39,7 +39,7 @@ A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is
 
 You will need a python 3.6 environment set up. To be able to train and run the agents, you will need the install the dependencies. Do do so, clone the repostory and install the required packages. With the following commands you will install PyTorch, the ML-Agents toolkit, and a few more Python packages required.
 
-```python
+```bash
 git clone https://github.com/n-lamprou/DeepReinforcementLearning.git
 cd DeepReinforcementLearning/python
 pip install .
@@ -58,19 +58,19 @@ Replace the Place the `Banana_Windows_x86_64` directory in the `Navigation/` fol
 
 ## Instructions
 
-Once your environment is set up, navigate to the `Navigation` and follow the instructions beneath to train an agent or to run a simulation. 
+Once your environment is set up, navigate to the `Navigation` folder and follow the instructions beneath to train an agent or to run a simulation. 
 
 #### Training an Agent
 
 To train an agent run the `learn.py` script. By default this trains a DQN agent (see report for more details). You can instead choose whether you want the agent to use a Double DQN algorithm or a Dueling architecture or both. For example to train an agent with both improvements run the following command:
 
-```python
+```bash
 python learn.py -ddqn True -duel True
 ```
 
 For more information on the options available run
 
-```python
+```bash
 python learn.py -h
 ```
 
@@ -78,7 +78,7 @@ python learn.py -h
 
 To run a simulation with you agent of choice run the following command:
 
-```python
+```bash
 python run.py -ddqn True -duel True
 ```
 
