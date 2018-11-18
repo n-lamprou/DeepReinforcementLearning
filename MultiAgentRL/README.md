@@ -38,9 +38,9 @@ If an agent hits the ball over the net, it receives a reward of +0.1. If an agen
 
 You will need a python 3.6 environment set up. To be able to train and run the agents, you will need the install the dependencies. Do do so, clone the repostory and install the required packages. With the following commands you will install PyTorch, the ML-Agents toolkit, and a few more Python packages required.
 
-```python
-git clone https://github.com/F1r3m4n/deep-reinforcement-learning.git
-cd deep-reinforcement-learning/python
+```bash
+git clone https://github.com/n-lamprou/DeepReinforcementLearning.git
+cd DeepReinforcementLearning/python
 pip install .
 ```
 
@@ -64,7 +64,7 @@ Once your environment is set up, navigate to the `p3_collab-compet` and follow t
 
 To train set of agents (players 1 and 2) run the `learn.py` script. By default this trains a two DDPG agents with OU noise for action space exploration (see report for more details). 
 
-```python
+```bash
 python learn.py 
 ```
 
@@ -72,7 +72,7 @@ python learn.py
 
 To run a simulation with you agent of choice run the following command:
 
-```python
+```bash
 python run.py 
 ```
 
